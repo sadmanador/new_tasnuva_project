@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.1.6/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="drawer lg:drawer-open">
+      <input id="my-drawer-2" type="checkbox" class="drawer-toggle" />
+      <div class="drawer-content flex flex-col items-center justify-center">
+        <div>
+            Welcome again! this is Contact
+        </div>
+        <label for="my-drawer-2" class="btn btn-primary drawer-button lg:hidden"
+          >Open drawer</label
+        >
+      </div>
+      <div class="drawer-side">
+        <label for="my-drawer-2" class="drawer-overlay"></label>
+        <ul class="menu p-4 w-80 h-full bg-base-200 text-base-content">
+          <!-- Sidebar content here -->
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="guide.html">Information</a></li>
+          <li><a href="Information.html">Guide</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
